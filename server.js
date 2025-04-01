@@ -99,7 +99,7 @@
 /* LEARNING LOADASH : A JS UTILITY LIBRARY */
 
 const notes = require('./notes.js');
-var _ = require('loadash');
+var _ = require('lodash');
 
 var arr = ["person", "person", 1,2,3,1,4, 'name', 'age', '2'];
 var filtered = _.uniq(arr);
