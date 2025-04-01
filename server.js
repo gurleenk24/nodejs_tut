@@ -22,6 +22,8 @@
 //     console.log("Hello world");
 // })();
 
+
+
 /* ********************************************************************************************* */
 /*LEARNING CALLBACK FUNCTIONS */
 
@@ -64,6 +66,8 @@
 
 // add(4,5,callback);
 
+
+
 /* ******************************************************************************************* */
 /* LEARNING FUNCTIONALITIES OF NODEJS */
 
@@ -76,13 +80,27 @@
 // fs.appendFile('greeting.txt', 'Hi ' + user.username + '!\n', ()=> console.log("file is created!"))
 
 
+
+
 /* ******************************************************************************************* */
 /* LEARNING HOW TO IMPORT */
 
-const notes = require('./notes.js');
-console.log("Server file is available");
+// const notes = require('./notes.js');
+// console.log("Server file is available");
 
-var age = notes.age;
-var ans = notes.addNumber(age + 18, 10);
-console.log(age);
-console.log(ans);
+// var age = notes.age;
+// var ans = notes.addNumber(age + 18, 10);
+// console.log(age);
+// console.log(ans);
+
+
+
+/* ******************************************************************************************* */
+/* LEARNING LOADASH : A JS UTILITY LIBRARY */
+
+const notes = require('./notes.js');
+var _ = require('loadash');
+
+var arr = ["person", "person", 1,2,3,1,4, 'name', 'age', '2'];
+var filtered = _.uniq(arr);
+console.log(filtered);
