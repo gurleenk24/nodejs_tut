@@ -6,27 +6,27 @@ const personSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    age:{
+    age: {
         type: Number
     },
-    work:{
+    work: {
         type: String,
         enum: ['chef', 'waiter', 'manager'],
         required: true
     },
-    mobile:{
+    mobile: {
         type: String,
         required: true
     },
-    email:{
+    email: {
         type: String,
         required: true,
         unique: true
     },
-    address:{
+    address: {
         type: String
     },
-    salary:{
+    salary: {
         type: Number,
         required: true
     }

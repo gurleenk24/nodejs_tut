@@ -123,3 +123,15 @@ console.log("Hellllllloooooooo!!!!!!!");
 //     }
 //   })
 // })
+
+
+
+// {
+    // "name": "Alice",
+    // "age": 28,
+    // "work": "chef",
+    // "mobile": "123-456-7890",
+    // "email": "alice@example.com",
+    // "address": "123 Main St. City",
+    // "salary": 60000
+// }
