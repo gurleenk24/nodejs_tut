@@ -100,9 +100,26 @@ console.log("Hellllllloooooooo!!!!!!!");
 /* ******************************************************************************************* */
 /* LEARNING LOADASH : A JS UTILITY LIBRARY */
 
-const notes = require('./notes.js');
-var _ = require('lodash');
+// const notes = require('./notes.js');
+// var _ = require('lodash');
 
-var arr = ["person", "person", 1,2,3,1,4, 'name', 'age', '2'];
-var filtered = _.uniq(arr);
-console.log(filtered);
+// var arr = ["person", "person", 1,2,3,1,4, 'name', 'age', '2'];
+// var filtered = _.uniq(arr);
+// console.log(filtered);
+
+// app.post('/person', (req, res) => {
+//   const data = req.body;  // getting the data from the request body
+//   // create a new Person document using Mongoose model
+//   const newPerson = new Person(data); // to avoid all the things down there we directly pass data to it!
+  
+//   // we're using the async & await instead of callback
+//   newPerson.save((err, savedPerson) => {
+//     if (err) {
+//       console.log("Error saving the person :/", err);
+//       res.status(500).json({ error: "Internal Server Error" });
+//     } else {
+//       console.log("Person saved successfully");
+//       res.status(200).json(savedPerson);
+//     }
+//   })
+// })

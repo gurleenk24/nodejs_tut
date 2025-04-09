@@ -3,13 +3,10 @@
 const mongoose = require('mongoose');
 
 // define the MongoDB connection URL
-const mongoURL = 'mongodb://localhost:27017/hotels';
+// const mongoURL = 'mongodb://localhost:27017/hotels';
 // connect to the MongoDB database
-mongoose.connect(mongoURL,
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    });
+mongoose.connect('mongodb://localhost:27017/hotels');
+
 
 // get the default connection
 // Mongoose maintains a default connection object representing the connection to the database(mongoDB)
