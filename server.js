@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // stores in req.body
 
 const Person = require('./models/person');
+const MenuItem = require('./models/menuItem');
 
 app.get('/', (req, res) => {
   res.send('Welcome to my Hotel!!!!!');
